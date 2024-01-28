@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-shadow</title>
+    <style>
+        main {
+            display: flex;
+        }
+
+        main > .box {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 14px 14px 1px rgba(0, 0, 0, 0.581);
+        }
+
+        main > .box:hover {
+            box-shadow: 14px 14px 1px #000000cd;
+            transition: 0.2s;
+            
+        }
+
+        .circle {
+            
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 50%;
+            box-shadow: 20px 14px 1px rgba(0, 0, 0, 0.534);
+        }
+
+        .circle:hover {
+            background-color: red;
+            border-radius: 0;
+            transition: 1s;
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+    </main>
+
+    <main>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+    </main>
+
+    <main>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+        <div class="box">CAIXA</div>
+    </main>
+
+    <div class="circle"></div>
+</body>
+</html>
