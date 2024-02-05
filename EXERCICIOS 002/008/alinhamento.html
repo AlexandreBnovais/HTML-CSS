@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento</title>
+
+    <style>
+        #bloco {
+            position: relative;
+            border: 3px solid black;
+            height: 96vh;
+            width: 100%;
+            background-color: rgb(145, 57, 228);
+            background-image: url("imagens/target001.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        #sub {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border: 3px solid black;
+            height: 150px;
+            width: 260px;
+            background-color: yellow;
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+           transform: translate(-50% , -50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="bloco">
+        <div id="sub"></div>
+    </div>
+</body>
+</html>
