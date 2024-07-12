@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expressoes Regulares</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="box">
+                <label for="name">
+                    nome: <input type="text" name="nome" id="name" placeholder="Digite seu nome" required>
+                </label>
+            </div>
+            <div class="box">
+                <label for="nickname">
+                    nome social: <input type="text" name="social" id="nickname" required>
+                </label>
+            </div>
+            <div class="box">
+                <label for="indentidade">
+                    CPF: <input type="number" name="social" id="indentidade" required>
+                </label>
+            </div>
+            <div class="box">
+                <label for="Email">
+                    Email: <input type="email" name="Email" id="Email" required >
+                </label>
+            </div>
+            <div class="box">
+                <label for="tel">
+                    telefone: <input type="tel" name="telefone" id="tel" required pattern="^\[9-9]{4}$">
+                </label>
+            </div>
+            <input type="submit" value="enviar">
+        </fieldset>
+    </form>
+</body>
+</html>

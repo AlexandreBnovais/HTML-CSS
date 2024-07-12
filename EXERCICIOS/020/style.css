@@ -1,0 +1,32 @@
+@charset  "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        
+
+    }
+
+    a:visited {
+        color: rgb(29, 29, 120)
+    }
+
+    a:active {
+        color: gray;
+    }
+
+    a:hover {
+        color: #bd2b2b;
+        text-decoration: underline;
+    }
+
+    a::after {
+        content: '✩';
+        text-decoration: none;
+    }
+    
+   
+  

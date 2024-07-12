@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rangr. color. filer</title>
+</head>
+<body>
+    <h1>Exemplo de variedade</h1>
+    
+    <!--envio de aquivo so funciona com o metodo de envio post-->
+
+    <form action="cadastro.php" method="post"> 
+        <input type="color" name="color" id="incolor">
+        <p>nivel de satisfação: <input type="range" name="init" id="ounit" max="5" min="1"></p>
+        <!--aqui definimos a limite maximo e minimo de ateração-->
+        <p>enviar arquivo <input type="file" name="file" id="ifile"></p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <h1>Exemplo de Formulario</h1>
+        <label for="">Estado</label>
+        <select name="estado" id="iest">
+            <p>
+                <optgroup label="state">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="copi">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </p>
+        </select>
+        <p>
+            <label for="iprof">Profissional</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="MR">Marceneiro</option>
+                <option value="MD">Medico</option>
+                <option value="ADS">Adiministrador</option>
+                <option value="MS">Musico </option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="msg">mensagem</label><br>
+            <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
+        </p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>

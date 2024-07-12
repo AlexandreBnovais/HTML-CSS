@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+</head>
+<body>
+    <form action="cadastro.php">
+        <h1>Cadastro de Persona</h1>
+        <fieldset>
+            <legend>Username</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="iname" id="name"><br>
+
+            <label for="surname">Sobrenome</label>
+            <input type="text" name="surname" id="surname">
+        </fieldset>
+
+        <fieldset>
+            <legend>Output</legend>
+            <label for="medio">Nivel de Satisfação</label>
+            <input type="range" name="media" id="medio" min="1" max="10" value="1">
+            <output id="medio">5</output>
+        </fieldset>
+    </form>
+</body>
+</html>
